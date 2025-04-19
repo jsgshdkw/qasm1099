@@ -779,7 +779,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
  
  
 AddButton(Main, {
-  Name = "✌🏻جسم ولد رول",
+  Name = "~جسم ولد رول~",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -801,7 +801,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
  
  
 AddButton(Main, {
-  Name = "💪🏻جسم ولد معضل",
+  Name = "جسم ولد معضل",
   Callback = function()
 print("Clicked")local args = {
 [1] = "CharacterChange",
@@ -823,7 +823,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
  
  
  
-local Paragraph = AddParagraph(Main, {"🌜اجسام اقزام + هامستر🌛"})
+local Paragraph = AddParagraph(Main, {"~اجسام اقزام + هامستر~"})
  
 AddButton(Main, {
   Name = "جـسـم الـقـزم",
@@ -928,7 +928,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 
-local Main = MakeTab({Name = "الـسيـرفـر"})
+local Main = MakeTab({Name = "~الـسيـرفـر~"})
 AddButton(Main, {
   Name = "سكربت يعلق السيرفر",
   Callback = function()
@@ -982,7 +982,7 @@ AddButton(Main, {
 })
 
 AddButton(Main, {
-  Name = " 💫اعـادة دخـول الـى سـيرفـر",
+  Name = " اعـادة دخـول الـى سـيرفـر",
   Callback = function()
     local ts = game:GetService("TeleportService")
 				local p = game:GetService("Players").LocalPlayer
@@ -1020,10 +1020,10 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServ
   end
 })
  
-local Paragraph = AddParagraph(Main, {"✨سكنات بنات✨"})
+local Paragraph = AddParagraph(Main, {"سكنات بنات"})
  
 AddButton(Main, {
-  Name = "👩سكن بنت رقم [1]👩",
+  Name = "سكن بنت رقم [1]",
   Callback = function()
  
 local args = {
@@ -3056,7 +3056,7 @@ end
 local Paragraph = AddParagraph(Main, {" خصـائص السـياره"})
  
 AddButton(Main, {
-  Name = "  🔥نـار فـي سـياره ",
+  Name = "  نـار فـي سـياره ",
   Callback = function()
     local args = {
     [1] = "Fire"
