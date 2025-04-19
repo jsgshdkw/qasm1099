@@ -1,4 +1,4 @@
-ou = 0
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
     Title = "‼️‼️‼️‼️‼️ ";
