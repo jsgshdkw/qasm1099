@@ -84,6 +84,14 @@ AddButton(Main, {
  
 local Main6 = MakeTab({Name = "~الـمـعـلـومـات~"})
 SetSection(AddSection(Main6, {"Coowner"}), "Owner : قُآسِمً")
+
+-- Create a label to show the number of players
+local playerCountLabel = AddTextLabel(Main, "الاعبين في السيرفر: " .. #game.Players:GetPlayers())
+ 
+-- Função para atualizar o número de jogadores quando alguém entra ou sai
+local function updatePlayerCount()
+    playerCountLabel.Text = "الاعبين في السيرفر: " .. #game.Players:GetPlayers()
+end
  
 local player = game.Players.LocalPlayer
 SetSection(AddSection(Main6, {"UserId"}), "Player ID : ".. player.UserId)
