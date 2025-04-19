@@ -60,7 +60,7 @@ local Image = AddImageLabel(Main, {
   Name = "قـاسـم",
   Image = "rbxassetid://115881843808544"
 })
-local Paragraph = AddParagraph(Main, {"حساباتي لل توصل معي لو تبون اي شي اضيفه لل سكربت", "bom dia meus manos"})
+local Paragraph = AddParagraph(Main, {"حساباتي سوشل ميديا توصل معي", "bom dia meus manos"})
 AddButton(Main, {
   Name = "~انـسـخ يـوزري تـيـك تـوك~",
   Callback = function()
@@ -110,6 +110,9 @@ AddButton(Main, {
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua"))()
   end
 })
+
+SetSection(section, "  " .. math.floor(playTime / 60) .. " دقيقة و " .. math.floor(playTime % 60) .. " ثانية")
+
 
 AddButton(Main, {
   Name = "~سكربت كيبورد~",
