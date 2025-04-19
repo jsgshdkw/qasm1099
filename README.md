@@ -1,4 +1,4 @@
-game.Players.LocalPlayer.Character.Humanoid.Health = 0
+ou = 0
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
     Title = "‼️‼️‼️‼️‼️ ";
@@ -24,7 +24,7 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 5;
 })
  
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/jsgshdkw/qasm10999/refs/heads/main/qasm109999")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Brookhaven198/-itachi-iraq/refs/heads/main/مال%20سايكو")))()
 MakeWindow({
   Hub = {
     Title = "1.1V BETA سكربت قاسم | QASSEM SCRIPT",
