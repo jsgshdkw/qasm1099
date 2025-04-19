@@ -112,6 +112,17 @@ AddButton(Main, {
 })
 
 AddButton(Main, {
+  Name = "حذف كل الاشياء الي في اليد",
+  Callback = function()
+    local args = {
+    [1] = "ClearAllTools"
+}
+ 
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
   Name = "~سكربت كيبورد~",
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
@@ -996,10 +1007,10 @@ AddButton(Main, {
 
 
  
-local Main = MakeTab({Name = "🌟سـكـنـات🌟"})
-local Paragraph = AddParagraph(Main, {"⭐حذف كل الاشياء الي في اليد⭐"})
+local Main = MakeTab({Name = "سـكـنـات"})
+local Paragraph = AddParagraph(Main, {"حذف كل الاشياء الي في اليد"})
 AddButton(Main, {
-  Name = "💫حذف كل الاشياء الي في اليد💫",
+  Name = "حذف كل الاشياء الي في اليد",
   Callback = function()
     local args = {
     [1] = "ClearAllTools"
