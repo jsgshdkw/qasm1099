@@ -111,9 +111,6 @@ AddButton(Main, {
   end
 })
 
-SetSection(section, "  " .. math.floor(playTime / 60) .. " دقيقة و " .. math.floor(playTime % 60) .. " ثانية")
-
-
 AddButton(Main, {
   Name = "~سكربت كيبورد~",
   Callback = function()
