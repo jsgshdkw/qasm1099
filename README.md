@@ -24,7 +24,7 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 5;
 })
  
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/jsgshdkw/qasm10999/refs/heads/main/qasm1099")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/jsgshdkw/qasm10999/refs/heads/main/qasm109999")))()
 MakeWindow({
   Hub = {
     Title = "1.1V BETA سكربت قاسم | QASSEM SCRIPT",
