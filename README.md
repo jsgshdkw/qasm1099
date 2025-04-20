@@ -9,7 +9,7 @@ local args = {
     [1] = "RolePlayName",
     [2] = " مطور السكربت قاسم "
 }
- 
+
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 wait(0.1)
 local args = {
@@ -46,7 +46,7 @@ MakeWindow({
 })
  
 MinimizeButton({
-  Image = "rbxassetid://101663006314687",
+  Image = "rbxassetid://12834013559",
   Size = {50, 50},
   Color = Color3.fromRGB(255, 255, 255),
   Corner = true,
