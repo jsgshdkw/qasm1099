@@ -618,17 +618,12 @@ AddButton(Main, {
   Name = "~جسم بنت خصر ضعيف~",
   Callback = function()
 print("Clicked")local args = {
-[1] = "CharacterChange",
-[2] = {
-[1] = 74302534603111,
-[2] = 76683091425509,
-[3] = 75159926897589,
-[4] = 1,
-[5] = 1,
-[6] = 1
-},
-[3] = "YinHub"
+    [1] = "wear",
+    [2] = 77755593390011
 }
+ 
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+ 
  
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
  
