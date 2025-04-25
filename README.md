@@ -51,7 +51,7 @@ MinimizeButton({
   Color = Color3.fromRGB(255, 255, 255),
   Corner = true,
   Stroke = true,
-  StrokeColor = Color3.fromRGB(255, 255, 255)
+  StrokeColor = Color3.fromRGB(11, 90, 175)
 })
  
  
