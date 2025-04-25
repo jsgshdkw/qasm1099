@@ -46,7 +46,7 @@ MakeWindow({
 })
  
 MinimizeButton({
-  Image = "rbxassetid://75946920769911",
+  Image = "rbxassetid://120426023136388",
   Size = {50, 50},
   Color = Color3.fromRGB(255, 255, 255),
   Corner = true,
@@ -58,7 +58,7 @@ MinimizeButton({
 local Main = MakeTab({Name = "~حـسـابـاتـي~"})
 local Image = AddImageLabel(Main, {
   Name = "قـاسـم",
-  Image = "rbxassetid://115881843808544"
+  Image = "rbxassetid://120426023136388"
 })
 local Paragraph = AddParagraph(Main, {"حساباتي سوشل ميديا توصل معي", "bom dia meus manos"})
 AddButton(Main, {
