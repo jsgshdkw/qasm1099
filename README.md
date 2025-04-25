@@ -114,6 +114,7 @@ local Main = MakeTab({Name = "~سـكـربـتات مـتـنوعـه~"})
 
 AddButton(Main, {
   Name = "~r6 سكربت تحول~",
+  Color = Color3.fromRGB(11, 90, 175)
   Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua"))()
   end
