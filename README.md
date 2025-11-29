@@ -64,7 +64,7 @@ local Paragraph = AddParagraph(Main, {"حساباتي سوشل ميديا توص
 AddButton(Main, {
   Name = "~انـسـخ يـوزري تـيـك تـوك~",
   Callback = function()
-    setclipboard('7bssn')
+    setclipboard('1qvf3')
   end
 })
  
@@ -76,9 +76,9 @@ AddButton(Main, {
 })
  
 AddButton(Main, {
-  Name = "~قـناتي يوتيوب~",
+  Name = "~براهيم ازهر~",
   Callback = function()
-    setclipboard('hyper_83')
+    setclipboard('براهيم يوتيوب')
   end
 })
  
