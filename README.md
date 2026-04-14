@@ -46,7 +46,7 @@ MakeWindow({
 })
  
 MinimizeButton({
-  Image = "rbxassetid://86945861090002",
+  Image = "rbxassetid://118972233156645",
   Size = {50, 50},
   Color = Color3.fromRGB(11, 90, 175),
   Corner = true,
@@ -3332,4 +3332,15 @@ local Toggle = AddToggle(Main, {
     Name = " اخـترق الـجـدار",
     Default = false,
     Callback = onNoclipToggle
+})
+
+
+local Main = MakeTab({Name = "~سـكـربـتات الـمـطـوريـن~"})
+
+AddButton(Main, {
+  Name = "~سكربت مـاتـيـو~",
+  Callback = function()
+  Color = Color3.fromRGB(11, 90, 175)
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Matthew-53819"))()
+  end
 })
