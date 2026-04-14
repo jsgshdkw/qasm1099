@@ -64,7 +64,7 @@ local Paragraph = AddParagraph(Main, {"حساباتي سوشل ميديا توص
 AddButton(Main, {
   Name = "~انـسـخ يـوزري تـيـك تـوك~",
   Callback = function()
-    setclipboard('1qvf3')
+    setclipboard('7bssn')
   end
 })
  
@@ -72,13 +72,6 @@ AddButton(Main, {
   Name = "~حـسـابـي روبـلـوكـس~",
   Callback = function()
     setclipboard('jsgshdkw')
-  end
-})
- 
-AddButton(Main, {
-  Name = "~براهيم ازهر~",
-  Callback = function()
-    setclipboard('براهيم يوتيوب')
   end
 })
  
@@ -160,7 +153,7 @@ AddButton(Main, {
 })
  
 AddButton(Main, {
-  Name = "~جميع المشيات في روبلكس~",
+  Name = "~جمـيـع رقصـات~",
   Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AFEM-14048"))()
   end
@@ -225,7 +218,7 @@ AddButton(Main, {
 })
  
 AddButton(Main, {
-  Name = "~سكربت طيران قاسم~",
+  Name = "~سكربت طيران ~",
   Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/UnNbzLeq"))()
   end
@@ -279,15 +272,6 @@ AddButton(Main, {
   Name = "~سكربـت عاصفه سياره~",
   Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Projeto-LKB-I-Super-Ring-V3-I-Cracked-23346"))()
-  end
-})
-
-
-local Main = MakeTab({Name = "~سكربت تجميع بيض~"})
-AddButton(Main, {
-  Name = "~سـكـربـت  تشغيل التجميع~",
-  Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-EASTER-HUNT-EGG-WIN-35161"))()
   end
 })
 
